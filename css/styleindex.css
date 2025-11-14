@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    display: block;
+    width: 100%;
+}
+.wrapperupper{
+    background-color: #F3F4F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 740px;
+}
+.logo{
+    width: 360px;
+    margin-bottom: -40px;
+}
+.subscontent{
+    padding: 28px;
+    font-family: "Roboto";
+    font-size: 28px;
+    width: 500px;
+}
+.formbox{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    padding: 20px;
+    height: 320px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px #0000001a, 0 8px 16px #0000001a;
+    gap: 16px;
+}
+.inbox{
+    all: unset;
+    font-family: "Roboto";
+    border: 1.8px solid #c4c4c6;
+    border-radius: 10px;
+    padding: 16px;
+}
+.loginbtn{
+    all: unset;
+    background-color: #0A66FF;
+    padding: 12px;
+    color: white;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.createbtn{
+    all: unset;
+    background-color: #0A66FF;
+    padding: 12px;
+    color: white;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #42B729;
+    margin-top: auto;
+    cursor: pointer;
+}
+.lin{
+    border: 0.2px solid #c4c4c6;
+}
+.forgot{
+    all: unset;
+    color: #0A66FF;
+    text-align: center;
+    cursor: pointer;
+}
